@@ -17,7 +17,7 @@ nazwisko <input type="text" name="nazwisko">
 <input type="submit" value="Wstaw">
 <input type="reset" value="Wyczysc">
 </form>
-KONIEC ;
+KONIEC;
 
 if (isset($_POST['id_prac']) &&
 is_numeric($_POST['id_prac']) &&

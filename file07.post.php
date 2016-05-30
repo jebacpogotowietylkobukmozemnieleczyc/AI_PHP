@@ -1,7 +1,6 @@
 <?php
 require_once('MDB2.php') ;
-$dsn
-    = "mysql://scott:tiger@localhost/instytut" ;
+$dsn = "mysql://scott:tiger@localhost/instytut" ;
 $db = MDB2 :: connect($dsn) ;
 if (MDB2 :: isError($db))
     die($db -> getMessage()) ;
